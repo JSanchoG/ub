@@ -1,4 +1,4 @@
-date_future = new Date(new Date().getFullYear(), 3, 24, 19, 4, 21);
+date_future = new Date(new Date().getFullYear(), 3, 24, 19, 4, 12);
 date_now = new Date();
 
 seconds = Math.floor((date_future - date_now) / 1000);
@@ -16,7 +16,7 @@ $("#m").text(`${minutes}`);
 $("#s").text(`${seconds}`);
 $(function () {
   var calcNewYear = setInterval(function () {
-    date_future = new Date(new Date().getFullYear(), 3, 24, 19, 4, 21);
+    date_future = new Date(new Date().getFullYear(), 3, 24, 19, 4, 12);
     date_now = new Date();
 
     seconds = Math.floor((date_future - date_now) / 1000);
